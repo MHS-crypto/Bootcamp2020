@@ -30,6 +30,6 @@ jobs:
       run:  npm install --globally surge
     
     - name: Run Surge
-      run: surge ./ vulgar-paste.surge.sh --token${{ secrets.SURGE_TOKKEN }}
+      run: surge ./vulgar-paste.surge.sh --token ${{ secrets.SURGE_TOKKEN }}
       
       
